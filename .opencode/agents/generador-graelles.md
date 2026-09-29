@@ -2,8 +2,8 @@
 description: Construeix la graella i l’informe de fonts a partir de materials revisats.
 mode: subagent
 permission:
-  edit: ask
-  bash: ask
+  edit: allow
+  bash: allow
   webfetch: deny
   question: allow
 ---

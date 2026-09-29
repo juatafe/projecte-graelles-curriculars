@@ -2,8 +2,8 @@
 description: Relaciona criteris amb sabers, ODS i temes transversals.
 mode: subagent
 permission:
-  edit: ask
-  bash: ask
+  edit: allow
+  bash: allow
   webfetch: deny
   question: allow
 ---

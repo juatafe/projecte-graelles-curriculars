@@ -3,7 +3,7 @@ description: Gestiona issues, branques, commits i Pull Requests del projecte.
 mode: subagent
 permission:
   edit: deny
-  bash: ask
+  bash: allow
   webfetch: deny
   question: allow
 ---

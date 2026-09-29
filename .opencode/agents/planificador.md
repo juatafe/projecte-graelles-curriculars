@@ -3,7 +3,7 @@ description: Converteix una petició curricular en un pla verificable.
 mode: subagent
 permission:
   edit: deny
-  bash: ask
+  bash: allow
   webfetch: deny
   question: allow
 ---

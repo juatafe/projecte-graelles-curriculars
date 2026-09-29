@@ -3,7 +3,7 @@ description: Revisa de manera independent una graella curricular i la seua traç
 mode: subagent
 permission:
   edit: deny
-  bash: ask
+  bash: allow
   webfetch: deny
   question: allow
 ---

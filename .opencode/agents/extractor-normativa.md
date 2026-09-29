@@ -2,9 +2,9 @@
 description: Extreu dades curriculars de fonts oficials registrades.
 mode: subagent
 permission:
-  edit: ask
-  bash: ask
-  webfetch: ask
+  edit: allow
+  bash: allow
+  webfetch: allow
   question: allow
 ---
 
