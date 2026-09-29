@@ -18,6 +18,7 @@ relacionant criteris, sabers, ODS i temes transversals.
 - `AGENTS.md`: regles generals del projecte.
 - `fonts/`: registre, portals oficials i procediment de verificació.
 - `.opencode/agents/gestor-fonts.md`: localitza i registra fonts abans de l’extracció.
+- `.opencode/skills/issue-workflow/SKILL.md`: defineix issues, branques, PR i merge.
 - `dades/`: catàlegs i plantilles de treball.
 - `sortides/`: esborranys, graelles i informes.
 - `.opencode/agents/`: papers especialitzats.
