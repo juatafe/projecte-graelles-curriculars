@@ -32,7 +32,16 @@ Ets el gestor de fonts del projecte.
 8. Per a FP, comprova el cicle en `dades/referencies-cicles.md`, consulta el
    Reial decret corresponent i registra en `dades/moduls-fp.md` la distribució
    per cursos, els mòduls, la ubicació normativa i la data de consulta. Aquesta
-   llista és una còpia regenerable, no una font alternativa. Per als cursos d’especialització
+   llista és una còpia regenerable, no una font alternativa.
+
+9. Treballa amb un límit de convergència: consulta com a màxim tres fonts
+   oficials candidates per al context rebut (dossier de la Generalitat, Reial
+   decret i desplegament curricular o document oficial enllaçat). Si no trobes
+   la distribució exacta per curs, no repetisques cerques ni edicions: retorna
+   `SOURCE NOT FOUND`, indica les URL consultades i explica quin document falta.
+   No marques `VERIFICADA` una dada només perquè el títol del mòdul apareix en
+   el Reial decret.
+ Per als cursos d’especialització
    consulta també el [dossier oficial de cursos d’especialització](https://ceice.gva.es/es/web/formacion-profesional/dossier-de-cursos-d-especialitzacio)
    i actualitza `dades/cursos-especialitzacio.md`. Si no trobes el document
    curricular exacte, conserva la llista com a `PENDENT` i explica què falta.

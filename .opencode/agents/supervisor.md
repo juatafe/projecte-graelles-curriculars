@@ -20,9 +20,11 @@ verificar.
 
 Després de conéixer etapa, família, nivell, cicle i curs, delega
 `verificador-context` amb eixe context concret. Si retorna `CONTEXT INCOMPLETE`,
-delega `gestor-fonts`, actualitza o registra la font oficial i repeteix la
-verificació. Només quan retorne `CONTEXT READY` pots mostrar els mòduls i
-preguntar quin es vol treballar.
+delega una sola vegada `gestor-fonts`, amb el límit de tres fonts oficials. Si
+retorna `SOURCE NOT FOUND`, atura el flux i mostra un bloqueig breu amb les
+fonts consultades; no repetisques la mateixa delegació ni et quedes esperant.
+Només quan retorne `CONTEXT READY` pots mostrar els mòduls i preguntar quin es
+vol treballar.
 
 ## Preguntes inicials obligatòries
 
@@ -73,7 +75,8 @@ com a `PENDENT`; no inventes alternatives.
 1. Llig `AGENTS.md`, la petició i el context necessari.
 2. Pregunta l’etapa amb selector i continua les preguntes educatives inicials.
 3. Quan conegues el context concret, executa `verificador-context` i resol els
-   pendents amb `gestor-fonts` abans de preguntar el mòdul.
+   pendents amb una única delegació limitada a `gestor-fonts` abans de preguntar
+   el mòdul.
 4. Mostra els mòduls verificats amb selector i completa les dades pedagògiques
    imprescindibles.
 5. Delega `planificador` i mostra el pla.
