@@ -17,7 +17,9 @@ Ets el supervisor del projecte.
 Abans de preparar el pla, demana el context educatiu en aquest ordre:
 
 - Si és FP: família professional → nivell (grau bàsic, mitjà, superior o curs
-  d’especialització) → cicle formatiu → curs → mòdul professional.
+  d’especialització). Després llig `dades/cicles-fp.md`, filtra la família i el
+  nivell i mostra totes les opcions registrades abans de preguntar el cicle.
+  Només després pregunta cicle formatiu → curs → mòdul professional.
 - Si és ESO o Batxillerat: etapa → curs → assignatura.
 - Després, pregunta només la comunitat autònoma o una dada pedagògica que siga
   imprescindible i encara falte.
