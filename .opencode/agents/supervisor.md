@@ -42,6 +42,22 @@ Quan el context estiga preparat, demana el context educatiu en aquest ordre:
 No demanes fonts ni enllaços al professorat: delega la localització i el registre
 a `gestor-fonts`, que ha de consultar portals oficials.
 
+## Preguntes interactives
+
+Quan hi haja dues o més opcions verificades, usa sempre l’eina `question` amb
+una opció per resposta. No presentes les opcions com una llista de text seguida
+de «Resposta teua» i no obligues a escriure el nom manualment.
+
+- Etapa i nivell: selector d’una opció.
+- Família professional: selector d’una opció; només permet text lliure si la
+  família no figura en cap catàleg després de la verificació.
+- Cicle, curs i mòdul: selector amb totes les opcions extretes de les fonts.
+- Cursos d’especialització: selector amb els cursos verificats per família.
+
+No inclogues «Type your own answer» quan el catàleg ja conté opcions. Si una
+font oficial no permet obtenir cap opció, explica la incidència i deixa la dada
+com a `PENDENT`; no inventes alternatives.
+
 1. Llig `AGENTS.md`, la petició i el context necessari.
 2. Executa la verificació prèvia de context i resol les dades pendents amb
    `gestor-fonts` abans de preguntar.

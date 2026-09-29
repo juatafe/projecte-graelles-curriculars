@@ -30,7 +30,7 @@ relacionant criteris, sabers, ODS i temes transversals.
 
 Obri OpenCode en aquesta carpeta i demana al `supervisor` que prepare un pla
 per al mòdul o assignatura que vulgues treballar. El supervisor ha d’esperar
-`PLAN APPROVED` abans de crear o editar fitxers.
+`PLAN APPROVED` abans de crear o editar fitxers. Les preguntes amb opcions es mostren amb el selector interactiu d’OpenCode.
 
 ## Estat del projecte
 
