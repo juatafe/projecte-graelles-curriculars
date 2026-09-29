@@ -5,7 +5,7 @@ permission:
   task:
     "*": allow
   edit: deny
-  bash: deny
+  bash: ask
   webfetch: deny
   question: allow
 ---
