@@ -25,3 +25,6 @@
 | F-021 | DOGV | Ordre 10/2023 | https://dogv.gva.es/es/eli/es-vc/o/2023/05/22/10 | Text de l’ordre | Inclusió | 2026-09-29 | VERIFICADA | Revisar aplicació concreta. |
 | F-022 | DOGV | Resolució d’inici de curs 2026-2027 d’ESO i Batxillerat | https://dogv.gva.es/es/resultat-dogv?signatura=2026%2F24443 | Resolució i annexos | ESO i Batxillerat | 2026-09-29 | VERIFICADA | Font organitzativa; consultar també la normativa curricular. |
 | F-023 | UPV | Del decret a l’aula | https://monografias.editorial.upv.es/index.php/ime/article/view/923/643 | Fitxa editorial | Totes | 2026-09-28 | VERIFICADA | Bibliografia; no és normativa. |
+
+| F-024 | Generalitat Valenciana | Programa formatiu del títol d’Informàtica i comunicacions | https://ceice.gva.es/documents/161863064/162743855/fpbinfinfh_val.pdf | Distribució de mòduls per curs | FP bàsica | 2026-09-29 | VERIFICADA | Font curricular concreta per a la llista de mòduls del cicle. |
+| F-025 | Generalitat Valenciana | Dossier de cursos d’especialització | https://ceice.gva.es/es/web/formacion-profesional/dossier-de-cursos-d-especialitzacio | Catàleg i documents curriculars | FP | 2026-09-29 | VERIFICADA | Portal oficial; cal registrar cada curs i document concret abans de l’extracció. |

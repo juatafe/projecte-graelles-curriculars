@@ -19,7 +19,8 @@ relacionant criteris, sabers, ODS i temes transversals.
 - `fonts/`: registre, portals oficials i procediment de verificació.
 - `.opencode/agents/gestor-fonts.md`: localitza i registra fonts abans de l’extracció.
 - `.opencode/skills/issue-workflow/SKILL.md`: defineix issues, branques, PR i merge.
-- `dades/`: catàlegs i plantilles de treball, inclòs `cicles-fp.md`.
+- `dades/`: catàlegs i plantilles de treball, inclosos `cicles-fp.md`,
+  `moduls-fp.md` i `cursos-especialitzacio.md`.
 - `sortides/`: esborranys, graelles i informes.
 - `.opencode/agents/`: papers especialitzats.
 - `.opencode/skills/`: procediments reutilitzables.

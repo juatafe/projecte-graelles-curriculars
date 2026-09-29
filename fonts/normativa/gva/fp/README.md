@@ -26,3 +26,11 @@
 - **Ús:** identificar el cicle, el grau, els mòduls i els documents curriculars que corresponen a una proposta didàctica concreta.
 - **Estat:** portal oficial verificat. La informació de consulta no substituïx la norma publicada en el DOGV o en el BOE.
 - **Data de consulta:** 29 de setembre de 2026.
+
+## Dossier de cursos d’especialització
+
+- **Organisme:** Generalitat Valenciana, Conselleria d’Educació, Cultura i Universitats.
+- **Enllaç oficial:** [Dossier de cursos d’especialització](https://ceice.gva.es/es/web/formacion-profesional/dossier-de-cursos-d-especialitzacio).
+- **Ús:** localitzar els cursos d’especialització, la família professional i el document curricular aplicable.
+- **Estat:** portal oficial verificat; el catàleg concret de cursos i cada document curricular s’han de registrar abans d’extraure dades.
+- **Data de consulta:** 29 de setembre de 2026.
