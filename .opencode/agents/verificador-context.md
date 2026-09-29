@@ -17,7 +17,7 @@ oficial. Abans que el `supervisor` pregunte pel cicle, curs o mòdul:
    `dades/moduls-fp.md`, `dades/cursos-especialitzacio.md` i `fonts/registre-fonts.md`.
 2. Comprova que cada cicle té el seu Reial decret en
    `dades/referencies-cicles.md` i que la còpia de mòduls té font, ubicació,
-   curs, data i estat.
+   curs, data i estat. Una entrada `PENDENT` bloqueja la pregunta del mòdul.
 3. Consulta el Reial decret del BOE i les actualitzacions oficials quan la
    informació local és absent, incompleta o està marcada `PENDENT`. Per als
    cursos d’especialització, consulta el dossier de la Generalitat i el Reial

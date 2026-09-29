@@ -24,20 +24,31 @@ confirmar sempre el curs i el mòdul en la font normativa abans de l’extracci�
 
 ## Informàtica i Comunicacions · grau bàsic · Informàtica d’oficina
 
-### 2n curs
+### Mòduls del títol identificats en la font estatal
 
-- **Instal·lació i manteniment de xarxes per a transmissió de dades**
-- **Operacions auxiliars per a la configuració i l’explotació**
-- **Ciències aplicades II**
-- **Comunicació i societat II**
-- **Tutoria**
-- **Formació i orientació laboral II**
-- **Formació en centres de treball**
+- **3029. Muntatge i manteniment de sistemes i components informàtics**
+- **3030. Operacions auxiliars per a la configuració i l’explotació**
+- **3031. Ofimàtica i arxiu de documents**
+- **3016. Instal·lació i manteniment de xarxes per a transmissió de dades**
+- **3159. Itinerari personal per a l’ocupabilitat**
+- **3161. Comunicació i ciències socials I**
+- **3162. Comunicació i ciències socials II**
+- **3163. Ciències aplicades I**
+- **3164. Ciències aplicades II**
+- **3160. Projecte intermodular d’aprenentatge col·laboratiu i tutoria**
 
-**Font de veritat:** [Reial decret 356/2014](https://www.boe.es/eli/es/rd/2014/05/16/356), annex VII.
+**Font de veritat:** [Reial decret 356/2014](https://www.boe.es/eli/es/rd/2014/05/16/356), annex VII, apartat 3.2.
 
-**Estat de la còpia:** `PENDENT` de contrastar els noms, codis i distribució amb l’annex del Reial decret. El gestor de fonts ha de fer aquesta comprovació abans de l’extracció.
+**Distribució per curs:** `PENDENT` de contrastar amb el desplegament curricular
+vigent de la Generalitat. Aquesta entrada no es pot usar per presentar una
+llista de 2n curs ni per demanar al professorat que trie un mòdul. El
+`gestor-fonts` ha de localitzar primer la taula oficial de distribució.
+
 
 ## Regla d’ús
 
-Després de conéixer el cicle i el curs, el supervisor ha de llegir aquest fitxer, mostrar els mòduls disponibles i preguntar quin es vol treballar. Si no hi ha una entrada per al cicle o el curs, ha de delegar la localització de la font al `gestor-fonts`; no ha de demanar a la persona usuària que escriga el nom del mòdul ni inventar-lo.
+Després de conéixer el cicle i el curs, el supervisor ha de llegir aquest fitxer.
+Només pot mostrar mòduls quan la distribució per curs està `VERIFICADA` i els ha
+de presentar amb `question`. Si està `PENDENT`, ha de delegar la localització
+de la font al `gestor-fonts` i repetir la verificació; no ha de demanar a la
+persona usuària que escriga el nom del mòdul ni inventar-lo.

@@ -32,9 +32,11 @@ Quan el context estiga preparat, demana el context educatiu en aquest ordre:
   Si és un curs d’especialització, llig també `dades/cursos-especialitzacio.md`
   i mostra els cursos disponibles; si falta el catàleg, delega la consulta al
   `gestor-fonts` abans de continuar. Després pregunta cicle formatiu → curs.
-  Per a cada curs, llig `dades/moduls-fp.md`, mostra tots els mòduls registrats
-  i pregunta quin es vol treballar. No demanes mai que la persona usuària
-  escriga el nom del mòdul quan el catàleg el pot proporcionar.
+  Per a cada curs, llig `dades/moduls-fp.md`. Només mostra i usa `question`
+  amb mòduls que tinguen distribució per curs `VERIFICADA`. No demanes mai que la persona usuària
+  escriga el nom del mòdul quan el catàleg el pot proporcionar. Si una entrada
+  està `PENDENT`, atura la pregunta, delega `gestor-fonts` i torna a verificar;
+  no convertisques mai el mòdul pendent en text lliure.
 - Si és ESO o Batxillerat: etapa → curs → assignatura.
 - Després, pregunta només la comunitat autònoma o una dada pedagògica que siga
   imprescindible i encara falte.
@@ -52,6 +54,8 @@ de «Resposta teua» i no obligues a escriure el nom manualment.
 - Família professional: selector d’una opció; només permet text lliure si la
   família no figura en cap catàleg després de la verificació.
 - Cicle, curs i mòdul: selector amb totes les opcions extretes de les fonts.
+  Si no hi ha una font verificada, no mostres cap camp de text: primer resol la
+  font amb `gestor-fonts`.
 - Cursos d’especialització: selector amb els cursos verificats per família.
 
 No inclogues «Type your own answer» quan el catàleg ja conté opcions. Si una
