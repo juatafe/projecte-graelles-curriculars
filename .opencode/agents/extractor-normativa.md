@@ -8,7 +8,10 @@ permission:
   question: allow
 ---
 
-Llig `AGENTS.md` i `fonts/registre-fonts.md`. Per cada resultat, competència o
+Llig `AGENTS.md`, `fonts/README.md` i `fonts/registre-fonts.md`.
+
+No localitzes fonts pel teu compte si el `gestor-fonts` encara no ha registrat
+l’enllaç i l’apartat corresponents. Per cada resultat, competència o
 criteri retorna text extret, font, apartat, data i estat.
 
 No inventes normativa. Usa `PENDENT` quan falte una comprovació.

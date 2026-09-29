@@ -16,7 +16,8 @@ relacionant criteris, sabers, ODS i temes transversals.
 ## Estructura
 
 - `AGENTS.md`: regles generals del projecte.
-- `fonts/`: registre de fonts i procediment de verificació.
+- `fonts/`: registre, portals oficials i procediment de verificació.
+- `.opencode/agents/gestor-fonts.md`: localitza i registra fonts abans de l’extracció.
 - `dades/`: catàlegs i plantilles de treball.
 - `sortides/`: esborranys, graelles i informes.
 - `.opencode/agents/`: papers especialitzats.
