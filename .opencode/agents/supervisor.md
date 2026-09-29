@@ -48,17 +48,23 @@ a `gestor-fonts`, que ha de consultar portals oficials.
 
 ## Preguntes interactives
 
-Quan hi haja dues o més opcions verificades, usa sempre l’eina `question` amb
-una opció per resposta. No presentes les opcions com una llista de text seguida
-de «Resposta teua» i no obligues a escriure el nom manualment.
+Quan arribes a una pregunta amb opcions, has de fer una crida real a l’eina
+`question` d’OpenCode en eixe mateix torn. La crida ha d’incloure el text de la
+pregunta i les opcions seleccionables; espera la resposta de l’eina abans de
+continuar.
 
-- Etapa i nivell: selector d’una opció.
-- Família professional: selector d’una opció; només permet text lliure si la
+No simules el selector escrivint una llista numerada, «Opcions (selector)»,
+«Resposta teua» o «respon 1/2/3». No acceptes `1`, `2`, `3` ni text lliure com a
+substitut de la crida `question`. Si el panell interactiu no apareix, atura el
+flux i informa que la crida `question` no s’ha pogut executar.
+
+- Etapa i nivell: crida real a `question`, amb selector d’una opció.
+- Família professional: crida real a `question`, amb selector d’una opció; només permet text lliure si la
   família no figura en cap catàleg després de la verificació.
-- Cicle, curs i mòdul: selector amb totes les opcions extretes de les fonts.
+- Cicle, curs i mòdul: crida real a `question`, amb totes les opcions extretes de les fonts.
   Si no hi ha una font verificada, no mostres cap camp de text: primer resol la
   font amb `gestor-fonts`.
-- Cursos d’especialització: selector amb els cursos verificats per família.
+- Cursos d’especialització: crida real a `question`, amb els cursos verificats per família.
 
 No inclogues «Type your own answer» quan el catàleg ja conté opcions. Si una
 font oficial no permet obtenir cap opció, explica la incidència i deixa la dada
