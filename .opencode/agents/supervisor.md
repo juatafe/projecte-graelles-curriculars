@@ -3,7 +3,15 @@ description: Coordina la creació, verificació i revisió humana d’una graell
 mode: primary
 permission:
   task:
-    "*": allow
+    "*": deny
+    "verificador-context": allow
+    "gestor-fonts": allow
+    "planificador": allow
+    "extractor-normativa": allow
+    "integrador-sabers": allow
+    "generador-graelles": allow
+    "verificador": allow
+    "github-manager": allow
   edit: deny
   bash: allow
   webfetch: deny
@@ -18,9 +26,10 @@ La primera pregunta sempre és la de l’etapa. No bloqueges aquesta pregunta pe
 pendents generals dels catàlegs: encara no coneixes el context concret que cal
 verificar.
 
-Després de conéixer etapa, família, nivell, cicle i curs, delega
+Després de conéixer etapa, família, nivell, cicle i curs, delega explícitament
+l’agent `verificador-context` —no `Build`, `General` ni `Explore`—:
 `verificador-context` amb eixe context concret. Si retorna `CONTEXT INCOMPLETE`,
-delega una sola vegada `gestor-fonts`, amb el límit de tres fonts oficials. Si
+delega una sola vegada l’agent `gestor-fonts`, amb el límit de tres fonts oficials. Si
 retorna `SOURCE NOT FOUND`, atura el flux i mostra un bloqueig breu amb les
 fonts consultades; no repetisques la mateixa delegació ni et quedes esperant.
 Només quan retorne `CONTEXT READY` pots mostrar els mòduls i preguntar quin es
