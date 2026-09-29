@@ -8,3 +8,10 @@
 - **Abast:** marc estatal del sistema educatiu; inclou les modificacions incorporades al text consolidat.
 - **Estat:** font oficial verificada. Cal consultar el text consolidat i la data de l’última actualització abans de citar un article.
 - **Data de consulta:** 28 de setembre de 2026.
+
+## Reials decrets dels títols de Formació Professional
+
+Els cicles de `dades/cicles-fp.md` es relacionen amb el seu Reial decret en
+`dades/referencies-cicles.md`. El decret és la font normativa de la distribució
+per cursos, els mòduls i els resultats d’aprenentatge. Les actualitzacions i el
+desplegament curricular de la Generalitat s’han de comprovar per separat.

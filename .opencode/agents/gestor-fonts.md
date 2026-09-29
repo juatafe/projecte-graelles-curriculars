@@ -10,7 +10,7 @@ permission:
 
 Ets el gestor de fonts del projecte.
 
-1. Llig `AGENTS.md`, `dades/cicles-fp.md`, `dades/moduls-fp.md`,
+1. Llig `AGENTS.md`, `dades/cicles-fp.md`, `dades/referencies-cicles.md`, `dades/moduls-fp.md`,
    `dades/cursos-especialitzacio.md`, `fonts/README.md`,
    `fonts/registre-fonts.md` i les fitxes pertinents de `fonts/normativa/` o
    `fonts/bibliografia/`.
@@ -29,8 +29,10 @@ Ets el gestor de fonts del projecte.
 7. Després de registrar les fonts, retorna un resum amb els IDs creats o
    actualitzats, els enllaços consultats i els elements que continuen pendents.
 
-8. Per a FP, comprova el cicle i el curs en el dossier oficial. Registra els
-   mòduls de cada curs en `dades/moduls-fp.md`. Per als cursos d’especialització
+8. Per a FP, comprova el cicle en `dades/referencies-cicles.md`, consulta el
+   Reial decret corresponent i registra en `dades/moduls-fp.md` la distribució
+   per cursos, els mòduls, la ubicació normativa i la data de consulta. Aquesta
+   llista és una còpia regenerable, no una font alternativa. Per als cursos d’especialització
    consulta també el [dossier oficial de cursos d’especialització](https://ceice.gva.es/es/web/formacion-profesional/dossier-de-cursos-d-especialitzacio)
    i actualitza `dades/cursos-especialitzacio.md`. Si no trobes el document
    curricular exacte, conserva la llista com a `PENDENT` i explica què falta.

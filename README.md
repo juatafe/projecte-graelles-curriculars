@@ -21,7 +21,7 @@ relacionant criteris, sabers, ODS i temes transversals.
 - `.opencode/agents/verificador-context.md`: comprova els catàlegs abans de fer preguntes.
 - `.opencode/skills/issue-workflow/SKILL.md`: defineix issues, branques, PR i merge.
 - `dades/`: catàlegs i plantilles de treball, inclosos `cicles-fp.md`,
-  `moduls-fp.md` i `cursos-especialitzacio.md`.
+  `referencies-cicles.md`, `moduls-fp.md` i `cursos-especialitzacio.md`.
 - `sortides/`: esborranys, graelles i informes.
 - `.opencode/agents/`: papers especialitzats.
 - `.opencode/skills/`: procediments reutilitzables.

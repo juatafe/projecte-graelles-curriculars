@@ -1,6 +1,10 @@
-# Catàleg inicial de mòduls de Formació Professional
+# Catàleg de consulta de mòduls de Formació Professional
 
-Aquest catàleg permet que el supervisor mostre els mòduls del curs seleccionat abans de demanar quin es vol treballar. Només es poden usar per a l’extracció els mòduls que tinguen una font curricular concreta registrada.
+Aquest fitxer és una còpia de consulta regenerable. La font de veritat és el
+Reial decret del títol indicat en `dades/referencies-cicles.md`, junt amb les
+seues actualitzacions i el desplegament curricular aplicable. El supervisor pot
+mostrar aquesta còpia per facilitar la selecció, però el gestor de fonts ha de
+confirmar sempre el curs i el mòdul en la font normativa abans de l’extracció.
 
 ## Informàtica i Comunicacions · grau bàsic · Informàtica i comunicacions
 
@@ -14,7 +18,9 @@ Aquest catàleg permet que el supervisor mostre els mòduls del curs seleccionat
 - **CV0006. Formació i orientació laboral II**
 - **3032. Formació en centres de treball (unitat formativa II)**
 
-**Font curricular:** [programa formatiu oficial del títol](https://ceice.gva.es/documents/161863064/162743855/fpbinfinfh_val.pdf), apartat de distribució de mòduls.
+**Font de veritat:** [Reial decret 127/2014](https://www.boe.es/eli/es/rd/2014/02/28/127), annex IV.
+
+**Còpia curricular valenciana de consulta:** [programa formatiu oficial del títol](https://ceice.gva.es/documents/161863064/162743855/fpbinfinfh_val.pdf).
 
 ## Informàtica i Comunicacions · grau bàsic · Informàtica d’oficina
 
@@ -28,7 +34,9 @@ Aquest catàleg permet que el supervisor mostre els mòduls del curs seleccionat
 - **Formació i orientació laboral II**
 - **Formació en centres de treball**
 
-**Estat:** `PENDENT` de registrar el document curricular específic del títol. El supervisor pot mostrar aquesta llista, però el gestor de fonts ha de confirmar els noms, codis i distribució en la font oficial abans de l’extracció.
+**Font de veritat:** [Reial decret 356/2014](https://www.boe.es/eli/es/rd/2014/05/16/356), annex VII.
+
+**Estat de la còpia:** `PENDENT` de contrastar els noms, codis i distribució amb l’annex del Reial decret. El gestor de fonts ha de fer aquesta comprovació abans de l’extracció.
 
 ## Regla d’ús
 
