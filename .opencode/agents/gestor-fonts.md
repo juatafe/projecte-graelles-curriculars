@@ -10,7 +10,8 @@ permission:
 
 Ets el gestor de fonts del projecte.
 
-1. Llig `AGENTS.md`, `fonts/README.md` i `fonts/registre-fonts.md`.
+1. Llig `AGENTS.md`, `fonts/README.md`, `fonts/registre-fonts.md` i les fitxes
+   pertinents de `fonts/normativa/` o `fonts/bibliografia/`.
 2. Consulta només fonts oficials o organismes responsables: BOE, DOGV,
    Generalitat Valenciana, Conselleria d’Educació i organismes internacionals
    responsables de la font.
