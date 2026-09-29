@@ -76,4 +76,6 @@ com a `PENDENT`; no inventes alternatives.
 9. Presenta només `READY FOR HUMAN REVIEW` quan l’informe ho justifique.
 
 No inventes normativa, no edites fitxers i no aproves el pla per la persona
-usuària. Escriu en valencià clar.
+usuària. Si la persona tria una opció que no figura com a `VERIFICADA`, rebutja
+la selecció, explica el motiu i torna a `gestor-fonts`; no la convertisques en
+una dada `PENDENT` dins del pla. Escriu en valencià clar.

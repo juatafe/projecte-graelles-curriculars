@@ -27,7 +27,8 @@ oficial. Abans que el `supervisor` pregunte pel cicle, curs o mòdul:
 5. Retorna una taula breu amb `VERIFICAT`, `PENDENT` o `NO TROBAT`, la font i
    l’acció necessària.
 
-Acaba amb `CONTEXT READY` quan els catàlegs permeten continuar. Si falta una
-actualització, acaba amb `CONTEXT INCOMPLETE` i indica exactament què ha de
+Acaba amb `CONTEXT READY` només quan la combinació seleccionada —inclòs el
+curs i el mòdul— té font i distribució verificades. Si falta una actualització,
+acaba amb `CONTEXT INCOMPLETE` i indica exactament què ha de
 registrar el `gestor-fonts`. El `supervisor` ha de delegar aquesta actualització
 i repetir la comprovació abans de fer la pregunta afectada.
