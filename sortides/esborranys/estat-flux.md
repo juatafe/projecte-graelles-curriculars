@@ -27,3 +27,24 @@ proxim_pas: reprendre fase-1-fonts-i-extraccio amb la codificació unificada; el
 intents: 1
 actualitzat: 2026-10-01
 progres_2026-10-01: RESULTAT | agent=github-manager | obstacle_2=RESOLT (milestone=0923068, issue/1=febff9a, issue/2=f2c849a, issue/3=d19031f) | obstacle_3=RESOLT (infra/memoria-i-neteja=ed0f644, PR obert cap a main, sense merge) | PR #4 i #5 MERGEABLE/CLEAN sobre la milestone | PR de issue/3 NO obert (fases 2-4 pendents) | arbre de treball net
+verificacio_supervisor_2026-10-01: CONFIRMAT Independentment — b4731ff és ancestre de issue/3 · totes les branques amb behind=0 respecte de main · PR #4, #5 i #6 CLEAN i cap fusionat
+fase_1_extraccio: DONE — sortides/esborranys/extraccion-3016.md (635 línies) · 6 RA, 44 criteris d'avaluació, 6 blocs de continguts bàsics amb 29 ítems, text literal de F-027
+fase_1_incidencies: I-8 RESOLTA (el text consolidat vigent és F-037; el bloc 3016 és idèntic caràcter per caràcter; el mòdul 3016 NO ha canviat amb el RD 498/2024) · I-7 PENDENT (el RD 356/2014 no defineix el camp Duración; aritmètica inconsistent: 1.100 h dels 9 mòduls davant de les 2.000 h de l'apartat 1; no afecta la graella perquè preval F-032)
+fonts_noves: F-037 (RD 356/2014 versió consolidada vigent, /con, actualització 28/05/2024) · F-038 (RD 498/2024, BOE-A-2024-10683) — cap codi reutilitzat, F-032 i F-036 no reassignats
+correccion_traçabilitat: la graella s'ha de traçar a F-037 (consolidat vigent), NO a F-027 (TEXTO ORIGINAL de 2014); el text és el mateix però la font a citar és la vigent
+advertiment_DA_sisena: les orientacions pedagògiques de 3016 diuen «competencias profesionales, personales y sociales» i s'han de llegir com a «competencias profesionales y para la empleabilidad» (F-038, disposició addicional sisena)
+progres_2026-10-01: PROGRÉS | fase=fase-1-fonts-i-extraccio | agent=extractor-normativa+gestor-fonts | acció=extracció literal i tancament I-7/I-8 | font=F-027,F-032,F-035,F-037,F-038 | intent=1/2 | pròxim=fase-2-integracio-sabers | límit=3 fonts per bloqueig (assolit 3/3)
+proxima_delegacio: integrador-sabers — relacionar criteris amb sabers (saber, saber fer, saber estar), ODS i temes transversals amb justificació
+proxim_pas: fase-2 integració de sabers; la vinculació d'ODS al mòdul 3016 no té font (cap relació acreditada) i s'ha de tractar com a PROPOSTA pedagògica o deixar PENDENT
+fase_2_integracio_sabers: DONE — sortides/esborranys/relacions-3016-sabers.md (818 línies) · 40 sabers finals (18 saber / 14 saber fer / 8 saber estar) · 44 criteris coberts (24 amb origen literal, 19 amb reserva, 1 sense cobertura: 4g) · 14 relacions ODS/TT totes PROPOSTA
+fase_2_correccions_D1: CB b5.i6 rep itinerari via SB-3016-40 (saber fer, RA 5, sense criteri perquè cap 5a-5g cobreix «configurar» textualment) · OP v8 PENDENT (P-24, sense itinerari possible) · OP v7 co-origin redundant de SB-3016-26 ·nous P-23, P-24, P-25
+fase_3_graella: DONE — sortides/graelles/graella-3016.md (~970 línies) · 6 RA + 44 criteris en text literal · 332 h repartides coherent amb F-032 · sortides/informes-validacio/informe-fonts-3016.md
+fase_4_validacio: PRIMERA VALIDACIÓ — 0 bloquejants, 9 defectes no bloquejants (D-1 alta, D-2 mitjana, D-3 a D-9 baixes); feina retornada a integrador-sabers i generador-graelles
+fase_4_revalidacio: READY FOR HUMAN REVIEW — D-1 PARCIAL (correcte: CB b5.i6 amb itinerari, OP v8 PENDENT, OP v7 redundant), D-4 PARCIAL i D-5 PARCIAL (reserves documentals), D-2 a D-3 i D-6 a D-9 CORRECTES · 0 defectesnous de regressió · 44/44 criteris i 6/6 RA literalment correctes, hores 332, 14/14 ODS/TT en PROPOSTA, 4g PENDENT
+reserves_tancades: D-4 els 2 caràcters U+2423 són el nom del caràcter dins del metatext de correcció, no un residu: declarats intencionats a §0.5 · D-5 SB-3016-06 passa a [TEXT EXTRET (parcial)] amb reserva; recomptes ajustats a 34 [TEXT EXTRET] + 1 parcial + 5 [RESUM]
+progres_2026-10-01: PROGRÉS | fase=fase-4-validacio | agent=verificador x2 + generador-graelles | acció=revalidacio independent i tancament de reserves | font=F-037,F-032,F-035,F-038 | intent=2/2 | pròxim=github-manager commit+PR de issue/3 | límit=2 intents sense canvi d'estat (assolit: canvi d'estat correctiu)
+PORTES_OBERTES: la graella 3016 està READY FOR HUMAN REVIEW; falta la revisió docent final i PR APPROVED per als PR #4, #5 i #6 i el PR de issue/3
+proxima_delegacio: github-manager — commit, push i PR de issue/3-graella-3016 cap a la branca de milestone; NO fusionar cap PR (tots esperen PR APPROVED)
+proxim_pas: obrir el PR de issue/3 amb la graella i els tres informes; mostrar l'estat al professorat per a la revisió docent; esperar PR APPROVED abans de qualsevol merge
+intents: 2
+actualitzat: 2026-10-01
