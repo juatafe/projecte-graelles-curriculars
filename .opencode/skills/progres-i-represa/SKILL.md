@@ -9,11 +9,14 @@ description: Controla la memòria, la represa i la convergència del flux multia
 
 1. Llig `dades/estat-catalogs.md`, `fonts/registre-fonts.md` i les eixides
    existents abans de consultar cap font externa.
-2. Si hi ha una execució o pla anterior amb la mateixa etapa, cicle, curs i
-   mòdul, anuncia que existeix i reutilitza el context, les fonts i els fitxers.
-3. Només pregunta si es vol reprendre, revisar o començar de nou quan hi haja
-   més d’una execució compatible o una contradicció.
-4. Una font `VERIFICADA` no es torna a buscar sense una raó registrada.
+2. Si hi ha una execució `EN_CURS` o `BLOQUEJAT` amb la mateixa etapa, cicle,
+   curs i mòdul, anuncia que existeix i ofereix reprendre-la o iniciar-ne una
+   de nova.
+3. Si l’execució està `COMPLET`, comprova el registre de neteja i inicia una
+   execució nova; no duplica ni reutilitza la milestone tancada.
+4. Només pregunta si es vol reprendre o començar de nou quan hi haja una
+   execució oberta compatible o una contradicció.
+5. Una font `VERIFICADA` no es torna a buscar sense una raó registrada.
 
 ## Polsera de progrés
 

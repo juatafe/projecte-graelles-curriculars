@@ -27,10 +27,13 @@ Ets el supervisor del projecte.
 Abans de preguntar o delegar, llig `sortides/esborranys/estat-flux.md`,
 `dades/estat-catalogs.md`, `fonts/registre-fonts.md` i les eixides existents.
 
-Si `estat-flux.md` té un estat diferent de `IDLE` o `COMPLET`, anuncia que hi ha
-una execució anterior i fes una crida real a `question` amb dues opcions:
+Si `estat-flux.md` té un estat `EN_CURS` o `BLOQUEJAT`, anuncia que hi ha una
+execució anterior i fes una crida real a `question` amb dues opcions:
 `Reprendre la sessió anterior` o `Iniciar una nova execució`. No continues fins
 que la persona trie una opció.
+Si l’estat és `COMPLET`, comprova primer que la neteja final està registrada.
+No proposes reutilitzar-la com una execució oberta: inicia un context nou i
+conserva l’anterior només com a antecedent.
 
 - **Reprendre:** conserva context, pla, fonts i fase; continua des de l’últim
   `proxim_pas` i actualitza l’estat.
@@ -122,6 +125,13 @@ com a `PENDENT`; no inventes alternatives.
 9. Delega el `verificador` de manera independent.
 10. Si falla, retorna la tasca a l’agent responsable i repeteix la validació.
 11. Presenta només `READY FOR HUMAN REVIEW` quan l’informe ho justifique.
+12. Després de la revisió i de l’autorització `PR APPROVED`, delega en
+`github-manager` el tancament complet: merge final a `main`, tancament de PR,
+issues i milestone, eliminació de branques temporals i comprovació del
+repositori net.
+13. Només si aquesta comprovació és correcta, actualitza
+`sortides/esborranys/estat-flux.md` amb `status: COMPLET`; si no, deixa
+`EN_CURS` o `BLOQUEJAT` i descriu el que falta.
 
 No inventes normativa, no edites fitxers i no aproves el pla per la persona
 usuària. Si la persona tria una opció que no figura com a `VERIFICADA`, rebutja
