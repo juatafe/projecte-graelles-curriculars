@@ -43,8 +43,11 @@ fase_4_validacio: PRIMERA VALIDACIÓ — 0 bloquejants, 9 defectes no bloquejant
 fase_4_revalidacio: READY FOR HUMAN REVIEW — D-1 PARCIAL (correcte: CB b5.i6 amb itinerari, OP v8 PENDENT, OP v7 redundant), D-4 PARCIAL i D-5 PARCIAL (reserves documentals), D-2 a D-3 i D-6 a D-9 CORRECTES · 0 defectesnous de regressió · 44/44 criteris i 6/6 RA literalment correctes, hores 332, 14/14 ODS/TT en PROPOSTA, 4g PENDENT
 reserves_tancades: D-4 els 2 caràcters U+2423 són el nom del caràcter dins del metatext de correcció, no un residu: declarats intencionats a §0.5 · D-5 SB-3016-06 passa a [TEXT EXTRET (parcial)] amb reserva; recomptes ajustats a 34 [TEXT EXTRET] + 1 parcial + 5 [RESUM]
 progres_2026-10-01: PROGRÉS | fase=fase-4-validacio | agent=verificador x2 + generador-graelles | acció=revalidacio independent i tancament de reserves | font=F-037,F-032,F-035,F-038 | intent=2/2 | pròxim=github-manager commit+PR de issue/3 | límit=2 intents sense canvi d'estat (assolit: canvi d'estat correctiu)
-PORTES_OBERTES: la graella 3016 està READY FOR HUMAN REVIEW; falta la revisió docent final i PR APPROVED per als PR #4, #5 i #6 i el PR de issue/3
-proxima_delegacio: github-manager — commit, push i PR de issue/3-graella-3016 cap a la branca de milestone; NO fusionar cap PR (tots esperen PR APPROVED)
-proxim_pas: obrir el PR de issue/3 amb la graella i els tres informes; mostrar l'estat al professorat per a la revisió docent; esperar PR APPROVED abans de qualsevol merge
+PORTES_OBERTES: cap — PR APPROVED rebut de la persona usuària el 2026-10-01 després de la revisió docent; autoritza el tancament complet
+pr_7: https://github.com/juatafe/projecte-graelles-curriculars/pull/7 · issue/3-graella-3016 → milestone/graella-3016-informatica-oficina · OPEN i CLEAN · commits 442f466 (fonts F-037/F-038 i I-7/I-8), 0ba0aa9 (extracció fase 1), fe81220 (integració fase 2), 203b97d (graella i informe fase 3), 3af4e68 (validació fase 4 i estat del flux) · Refs #3, sense tancament automàtic
+pull_requests: [#4 obert i CLEAN, #5 obert i CLEAN, #6 obert i CLEAN cap a main (infraestructura), #7 obert i CLEAN (graella 3016)]
+autoritzacio_merge: PR APPROVED de la persona usuària (2026-10-01) — cobreix tota la cadena de merge fins a la neteja final
+proxima_delegacio: github-manager — merge de #4, #5 i #7 a la milestone, PR de milestone cap a main, merge, tancament d'issues i milestone i eliminació de branques temporals; després verificació de repositori net
+proxim_pas: supervisar la neteja final; si és correcta, marcar status COMPLET, i si no, deixar EN_CURS o BLOQUEJAT amb el que falta
 intents: 2
 actualitzat: 2026-10-01
