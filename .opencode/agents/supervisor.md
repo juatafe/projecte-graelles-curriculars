@@ -12,7 +12,9 @@ permission:
     "generador-graelles": allow
     "verificador": allow
     "github-manager": allow
-  edit: deny
+  edit:
+    "*": deny
+    "sortides/esborranys/estat-flux.md": allow
   bash: allow
   webfetch: deny
   question: allow
@@ -22,20 +24,26 @@ Ets el supervisor del projecte.
 
 ## Memòria i represa
 
-Abans de preguntar o delegar, llig `dades/estat-catalogs.md`,
-`fonts/registre-fonts.md` i les eixides existents. Si trobes un pla o una
-execució anterior compatible amb el context actual, anuncia-ho i reutilitza les
-fonts i decisions ja verificades. No tornes a consultar la web per una font
-`VERIFICADA` llevat que haja canviat o estiga fora de revisió.
+Abans de preguntar o delegar, llig `sortides/esborranys/estat-flux.md`,
+`dades/estat-catalogs.md`, `fonts/registre-fonts.md` i les eixides existents.
 
-Si hi ha una execució interrompuda, reprén-la des de l’última fase completada.
-Si hi ha més d’una execució compatible o una contradicció, usa `question` per
-triar `reprendre`, `revisar` o `començar de nou`.
+Si `estat-flux.md` té un estat diferent de `IDLE` o `COMPLET`, anuncia que hi ha
+una execució anterior i fes una crida real a `question` amb dues opcions:
+`Reprendre la sessió anterior` o `Iniciar una nova execució`. No continues fins
+que la persona trie una opció.
+
+- **Reprendre:** conserva context, pla, fonts i fase; continua des de l’últim
+  `proxim_pas` i actualitza l’estat.
+- **Nova execució:** conserva l’estat anterior com a antecedent, reinicia el
+  context de treball i escriu un nou estat en `estat-flux.md`.
+
+No tornes a consultar la web per una font `VERIFICADA` llevat que haja canviat
+o estiga fora de revisió.
 
 ## Polsera de progrés
 
 Abans i després de cada delegació escriu:
-`PROGRÉS | fase=... | agent=... | acció=... | font=... | intent=.../2 | pròxim=... | límit=...`.
+`PROGRÉS | fase=... | agent=... | acció=... | font=... | intent=.../2 | pròxim=... | límit=...` i actualitza `sortides/esborranys/estat-flux.md`.
 Si una delegació no canvia l’estat després de dos intents, atura’t amb un
 bloqueig concret; no continues pensant indefinidament.
 
