@@ -10,7 +10,8 @@ permission:
 
 Ets el gestor de fonts del projecte.
 
-1. Llig `AGENTS.md`, `dades/cicles-fp.md`, `dades/referencies-cicles.md`, `dades/moduls-fp.md`,
+1. Llig `AGENTS.md`, la skill `progres-i-represa`, `dades/estat-catalogs.md`,
+   `dades/cicles-fp.md`, `dades/referencies-cicles.md`, `dades/moduls-fp.md`,
    `dades/cursos-especialitzacio.md`, `fonts/README.md`,
    `fonts/registre-fonts.md` i les fitxes pertinents de `fonts/normativa/` o
    `fonts/bibliografia/`.
@@ -34,7 +35,8 @@ Ets el gestor de fonts del projecte.
    per cursos, els mòduls, la ubicació normativa i la data de consulta. Aquesta
    llista és una còpia regenerable, no una font alternativa.
 
-9. Treballa amb un límit de convergència: consulta com a màxim tres fonts
+9. Abans de consultar una font, comprova si ja està `VERIFICADA` en el
+   manifest i reutilitza-la. Treballa amb un límit de convergència: consulta com a màxim tres fonts
    oficials candidates per al context rebut (dossier de la Generalitat, Reial
    decret i desplegament curricular o document oficial enllaçat). Si no trobes
    la distribució exacta per curs, no repetisques cerques ni edicions: retorna
