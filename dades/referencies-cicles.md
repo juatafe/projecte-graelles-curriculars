@@ -32,7 +32,7 @@ text complet als dos documents oficials. És la que ha generat la incidència
 | Identificació, durada total, competència general i competències del títol | **Sí** (F-026 RD 127/2014, Annex IV · F-027 RD 356/2014, Annex VII) | Remet al RD (art. 3.1 del Decret 117/2025) |
 | Relació de mòduls del títol | **Sí** (apartat 3.2, sense ordre per curs) | Substitueix i amplia alguns codis (art. 3.2 i Anexo III-A) |
 | **RA, criteris d’avaluació, continguts bàsics i orientacions pedagògiques** dels mòduls professionals | **Sí** (apartat 3.3 «Desarrollo de los módulos»). L’art. 3.2 del Decret 117/2025 els declara «prescriptivos» | No els reproduïx, excepte del mòdul `3159` (Annex I) |
-| Distribució de mòduls **per curs** i hores anuals | **No** | **Sí** (Anexo III-A; art. 8.8 hi remet) |
+| Distribució de mòduls **per curs** i hores anuals | **No** | **Sí** (Anexo III-A; hi remet l’art. 3.8, pàg. 4/58) |
 | Mòduls de l’àmbit de Comunicació i Ciències Socials i de Ciències Aplicades | Codis **estatals** `3009`/`3019` i `3011`/`3012` | Codis **autonòmics** `3161`/`3162` i `3163`/`3164` (Anexo III-A) |
 | ODS i continguts transversals | Cap capçalera ni cap relació d’ODS al RD 356/2014 | **Sí**: preàmbul (ODS 4, 8, 10, 12), art. 4.1, art. 5.2, art. 10.3 (F-035) |
 
@@ -56,15 +56,15 @@ valenciana: per a `3016` del 2n curs preval la taula de F-032 (10 h/sem ·
 
 El Reial decret del títol **no distribueix els mòduls per curs**. Per als cicles de
 grau bàsic, aquesta comesesa la fixa el Decret 117/2025, de 5 d’agost, del
-Consell (DOGV núm. 10172, de 13.08.2025; CVE `DOGV-C-2025-32763`). L’article 8.8
-del decret remet expressament a l’annex III-A: *«La secuenciación, duración y
+Consell (DOGV núm. 10172, de 13.08.2025; CVE `DOGV-C-2025-32763`). L’**article 3.8**
+del decret (pàg. 4/58) remet expressament a l’annex III-A: *«La secuenciación, duración y
 distribución horaria de cada ciclo formativo está determinada en el anexo III-A de
 este decreto»*.
 
 | Cicle | Norma curricular valenciana | Apartat i pàgina exacta | Data | Estat |
 |---|---|---|---|---|
-| Informàtica d’oficina | [Decret 117/2025 (PDF oficial DOGV)](https://dogv.gva.es/datos/2025/08/13/pdf/2025_32763_es.pdf) (F-032) | **Anexo III-A «Secuenciación y carga horaria», pàgina 34 de 58** de l’edició DOGV (encapçalament de l’annex a la pàg. 17/58) | 2026-09-30 | `VERIFICADA` |
-| Informàtica i comunicacions | [Decret 117/2025 (PDF oficial DOGV)](https://dogv.gva.es/datos/2025/08/13/pdf/2025_32763_es.pdf) (F-032) | **Anexo III-A «Secuenciación y carga horaria», pàgina 35 de 58** de l’edició DOGV (encapçalament de l’annex a la pàg. 17/58) | 2026-09-30 | `VERIFICADA` |
+| Informàtica d’oficina | [Decret 117/2025 (PDF oficial DOGV)](https://dogv.gva.es/datos/2025/08/13/pdf/2025_32763_es.pdf) (F-032) | **Anexo III-A «Secuenciación y carga horaria», pàgina 34 de 58** de l’edició DOGV (encapçalament de l’annex a la pàg. 17/58) | 2026-10-01 | `VERIFICADA` |
+| Informàtica i comunicacions | [Decret 117/2025 (PDF oficial DOGV)](https://dogv.gva.es/datos/2025/08/13/pdf/2025_32763_es.pdf) (F-032) | **Anexo III-A «Secuenciación y carga horaria», pàgina 35 de 58** de l’edició DOGV (encapçalament de l’annex a la pàg. 17/58) | 2026-10-01 | `VERIFICADA` |
 
 Les dues pàgines estan dins del mateix apartat «INFORMÁTICA Y COMUNICACIONES»
 (nom de família professional), sota els epígrafs «Informática de oficina» i
@@ -72,9 +72,12 @@ Les dues pàgines estan dins del mateix apartat «INFORMÁTICA Y COMUNICACIONES�
 `Familia / Código / Módulo / hrs-sem / hrs-año` i inclouen les files `Total 1º`,
 `Total 2º` i `Total ciclo`.
 
-**Validesa:** el PDF oficial es va revalidar el 30-09-2026 (HTTP 200, 885.828
-bytes, 58 pàgines, SHA-256 `10e95e82…9f5ef`, idèntic a les còpies del
-29-09-2026). En vigor des del 14.08.2025 (disposició final segona).
+**Validesa:** el PDF oficial es va revalidar el 30-09-2026 i una altra vegada el
+**1 d’octubre de 2026** (HTTP 200, 885.828 bytes, 58 pàgines, SHA-256
+`10e95e822348f6120e64e794185b965bd021b745f0e4b599131512e69be9f5ef`, idèntic a
+les còpies del 29 i del 30-09-2026). En vigor des del 14.08.2025 (disposició
+final segona). La remissió a l’annex III-A és a l’**article 3.8, pàg. 4/58**
+(vegeu la incidència I-5 de `fonts/registre-fonts.md`).
 
 ## ODS i continguts transversals (Comunitat Valenciana)
 
@@ -110,7 +113,8 @@ RD 356/2014 (F-027), que **no** conté cap capçalera ni cap relació d’ODS
 reprodueixen una taula de mòduls per curs que **no coincideix** amb l’annex III-A
 en les hores. Hi ha dos incidències registrades: la pàgina del 1r curs (F-033)
 assigna a `3031` hores que la norma dona a `3016` del 2n curs, i la pàgina del 2n
-curs (F-034) dona hores pròpies d’Informática y comunicaciones. Vegeu
+curs (F-034 i F-036, mateixa URL) dona hores pròpies d’Informática y
+comunicaciones. Vegeu
 `fonts/registre-fonts.md`, apartat «Incidències registrades». **Per a qualsevol
 distribució per curs o hora, preval el Decret 117/2025, Anexo III-A.**
 
