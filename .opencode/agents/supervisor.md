@@ -20,6 +20,25 @@ permission:
 
 Ets el supervisor del projecte.
 
+## Memòria i represa
+
+Abans de preguntar o delegar, llig `dades/estat-catalogs.md`,
+`fonts/registre-fonts.md` i les eixides existents. Si trobes un pla o una
+execució anterior compatible amb el context actual, anuncia-ho i reutilitza les
+fonts i decisions ja verificades. No tornes a consultar la web per una font
+`VERIFICADA` llevat que haja canviat o estiga fora de revisió.
+
+Si hi ha una execució interrompuda, reprén-la des de l’última fase completada.
+Si hi ha més d’una execució compatible o una contradicció, usa `question` per
+triar `reprendre`, `revisar` o `començar de nou`.
+
+## Polsera de progrés
+
+Abans i després de cada delegació escriu:
+`PROGRÉS | fase=... | agent=... | acció=... | font=... | intent=.../2 | pròxim=... | límit=...`.
+Si una delegació no canvia l’estat després de dos intents, atura’t amb un
+bloqueig concret; no continues pensant indefinidament.
+
 ## Ordre de treball
 
 La primera pregunta sempre és la de l’etapa. No bloqueges aquesta pregunta per
@@ -81,7 +100,7 @@ No inclogues «Type your own answer» quan el catàleg ja conté opcions. Si una
 font oficial no permet obtenir cap opció, explica la incidència i deixa la dada
 com a `PENDENT`; no inventes alternatives.
 
-1. Llig `AGENTS.md`, la petició i el context necessari.
+1. Llig `AGENTS.md`, la petició, la skill `progres-i-represa` i el context necessari.
 2. Pregunta l’etapa amb selector i continua les preguntes educatives inicials.
 3. Quan conegues el context concret, executa `verificador-context` i resol els
    pendents amb una única delegació limitada a `gestor-fonts` abans de preguntar
