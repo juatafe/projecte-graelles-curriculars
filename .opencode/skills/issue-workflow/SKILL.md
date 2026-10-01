@@ -45,9 +45,23 @@ un Pull Request final de `milestone/<slug>` cap a `main`.
    obri el Pull Request cap a la branca de la milestone.
 9. El supervisor mostra l’estat i espera exactament `PR APPROVED`.
 10. Després de `PR APPROVED`, `github-manager` comprova els checks, fa el merge,
-    verifica el tancament de la issue i elimina la branca ja integrada.
-11. En acabar totes les issues, es repeteix el procediment per al Pull Request
-    de la milestone cap a `main`.
+    verifica que el PR està integrat, tanca la issue si continua oberta i
+    elimina la branca de l’issue ja integrada.
+11. En acabar totes les issues, `github-manager` obri el Pull Request de la
+    milestone cap a `main`, espera `PR APPROVED`, comprova els checks i fa el
+    merge.
+12. Després de verificar que `main` conté els commits, tanca les issues que
+    encara estiguen obertes, tanca la milestone i elimina la branca
+    `milestone/<slug>` local i remota.
+13. El supervisor comprova la neteja final i marca l’execució com a `COMPLET`.
+
+## Condició de repositori net
+
+Una execució només es considera completada quan el Pull Request final està
+fusionat a `main`, no queda cap PR obert de la milestone, les issues associades
+estan tancades, la milestone està tancada i les branques temporals s’han
+eliminat. Si alguna operació falla, es conserva l’estat com a `EN_CURS` o
+`BLOQUEJAT` i es descriu exactament què queda pendent.
 
 ## Eixides i límits
 
