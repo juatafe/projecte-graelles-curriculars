@@ -18,6 +18,7 @@ relacionant criteris, sabers, ODS i temes transversals.
 - `AGENTS.md`: regles generals del projecte.
 - `fonts/`: registre, portals oficials i procediment de verificació.
 - `.opencode/agents/gestor-fonts.md`: localitza i registra fonts abans de l’extracció.
+- `.opencode/agents/assessor-disseny-curricular.md`: aplica el llibre de disseny curricular com a orientació bibliogràfica, sense confondre’l amb normativa.
 - `.opencode/agents/verificador-context.md`: comprova els catàlegs abans de fer preguntes.
 - `.opencode/skills/progres-i-represa/SKILL.md`: controla memòria, represa i convergència.
 - `.opencode/skills/issue-workflow/SKILL.md`: defineix issues, branques, PR i merge.

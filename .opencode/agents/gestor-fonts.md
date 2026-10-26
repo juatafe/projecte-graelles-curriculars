@@ -1,6 +1,7 @@
 ---
 description: Localitza, registra i manté fonts oficials per a l’extracció curricular.
 mode: subagent
+model: ollama/qwen2.5-coder:7b
 permission:
   edit: allow
   bash: allow

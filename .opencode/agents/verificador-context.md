@@ -1,6 +1,7 @@
 ---
 description: Comprova i prepara el context educatiu abans de les preguntes inicials.
 mode: subagent
+model: ollama/qwen3:8b
 permission:
   edit: deny
   bash: allow

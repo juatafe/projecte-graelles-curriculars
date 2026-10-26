@@ -1,6 +1,7 @@
 ---
 description: Converteix una petició curricular en un pla verificable.
 mode: subagent
+model: ollama/deepseek-r1:7b
 permission:
   edit: deny
   bash: allow
