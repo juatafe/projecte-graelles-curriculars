@@ -1,7 +1,6 @@
 ---
 description: Revisa de manera independent una graella curricular i la seua traça.
 mode: subagent
-model: ollama/deepseek-r1:7b
 permission:
   edit: deny
   bash: allow

@@ -1,7 +1,6 @@
 ---
 description: Construeix la graella i l’informe de fonts a partir de materials revisats.
 mode: subagent
-model: ollama/qwen2.5-coder:7b
 permission:
   edit:
     "*": deny

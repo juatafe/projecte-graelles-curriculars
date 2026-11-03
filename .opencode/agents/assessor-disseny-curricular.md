@@ -1,7 +1,6 @@
 ---
 description: Aplica el llibre de disseny curricular com a font bibliogràfica i proposa decisions pedagògiques traçables.
 mode: subagent
-model: ollama/qwen2.5-coder:7b
 permission:
   edit: allow
   bash: allow

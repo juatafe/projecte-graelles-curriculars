@@ -1,7 +1,6 @@
 ---
 description: Coordina la creació, verificació i revisió humana d’una graella curricular.
 mode: primary
-model: ollama/qwen3:8b
 permission:
   task:
     "*": deny

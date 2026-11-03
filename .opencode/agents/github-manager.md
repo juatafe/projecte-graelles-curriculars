@@ -1,7 +1,6 @@
 ---
 description: Gestiona issues, branques, commits i Pull Requests del projecte.
 mode: subagent
-model: ollama/qwen3:4b
 permission:
   edit: deny
   bash: allow

@@ -1,7 +1,6 @@
 ---
 description: Extreu dades curriculars de fonts oficials registrades.
 mode: subagent
-model: ollama/qwen2.5-coder:7b
 permission:
   edit: allow
   bash: allow

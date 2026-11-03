@@ -1,7 +1,6 @@
 ---
 description: Relaciona criteris amb sabers, ODS i temes transversals.
 mode: subagent
-model: ollama/qwen2.5-coder:7b
 permission:
   edit: deny
   bash: deny
